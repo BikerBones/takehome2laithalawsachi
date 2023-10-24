@@ -1,0 +1,142 @@
+/* styles.css */
+.container {
+  border: 2px solid #ffad20;
+  width: auto; /* Increase the width of the container */
+  height: 800px; /* Increase the height of the container */
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  position: relative; /* Set the container to a relative position */
+}
+
+/* Add styles to initially hide the "Hide Result" box */
+.hidden {
+  display: none;
+}
+
+#header3,
+#header4 {
+  border: 2px solid #ffad20;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.box {
+  position: absolute; /* Set the "A" box to an absolute position */
+  bottom: 10px; /* Position it at the bottom */
+  left: 10px; /* Position it to the left */
+  width: 200px; /* Width of the "A" box */
+  height: 40px; /* Height of the "A" box */
+  border: 2px solid #ffad20;
+  text-align: center;
+  padding: 8px;
+  margin: 10px;
+}
+
+.box-middle {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 40px;
+  border: 2px solid #ffad20;
+  text-align: center;
+  padding: 8px;
+  margin: 10px;
+}
+
+.box1 {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 200px;
+  height: 40px;
+  border: 2px solid #ffad20;
+  text-align: center;
+  padding: 8px;
+  margin: 10px;
+}
+
+.hide-result-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.hide-result-box {
+  position: absolute;
+  bottom: 130px;
+  right: 10px;
+  width: 300px;
+  height: 40px;
+  border: 2px solid #ffad20;
+  text-align: center;
+  padding: 8px;
+  margin: 10px;
+}
+
+.header11 {
+  background-color: rgb(131, 193, 255);
+  border: 2px solid rgb(131, 193, 255);
+  text-align: center;
+  color: white;
+  height: 35px;
+  margin-top: 0px;
+}
+
+.image-container img {
+  position: absolute;
+  bottom: 200px;
+  left: 10px;
+  text-align: center;
+}
+
+.image-container1 img {
+  position: absolute;
+  bottom: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hide-result-box1 {
+  position: absolute;
+  bottom: -476px;
+  left: 880px;
+  width: 300px;
+  height: 40px;
+  border: 2px solid #ffad20;
+  text-align: center;
+  padding: 8px;
+  margin: 10px;
+}
+
+.hide-result-container1 {
+  position: absolute;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hide-result-container2 {
+  position: absolute;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hide-result-box2 {
+  position: absolute;
+  bottom: -476px;
+  left: 1445px;
+  width: 300px;
+  height: 40px;
+  border: 2px solid #ffad20;
+  text-align: center;
+  padding: 8px;
+  margin: 10px;
+}
+
+.image-container2 img {
+  position: absolute;
+  bottom: 200px;
+  right: 10px;
+}
